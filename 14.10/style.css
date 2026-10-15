@@ -1,0 +1,203 @@
+html {
+    background-color: #0f121a;
+    display: block;
+
+}
+
+#logo {
+    padding: 3%;
+    width: 50%;
+    margin-right: 45.5%;
+    margin-bottom: 30px;
+}
+
+article {
+    padding: 3%;
+}
+
+h2 {
+    color: #3f5bb7;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.main-text {
+    color: rgb(122, 122, 122);
+}
+
+#learn-more {
+    background-color: #3b8d45;
+    color: white;
+    padding: 5% 15%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #57ac61;
+}
+
+#phones {
+    width: 100%;
+
+}
+
+#cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 3%;
+}
+
+.card {
+    background-color: #373e57;
+    border-radius: 20px;
+    padding: 6%;
+}
+
+.card-icon {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+}
+
+#greenIcon {
+    background-color: #3b8d45;
+}
+
+#blueIcon {
+    background-color: #3f5bb7;
+}
+
+#greenTitle {
+    color: #3b8d45;
+}
+
+#blueTitle {
+    color: #3f5bb7;
+}
+
+#shtuth {
+    width: 100%;
+}
+
+#mainTitle {
+    font-weight: bold;
+    color: rgb(5, 0, 0);
+    padding-right: 40%;
+}
+
+#subTitle {
+    color: rgb(122, 122, 122);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#secondArticle {
+    background-color: #e9ebf1;
+    border-top-right-radius: 50%;
+}
+
+.Q-icon {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    border-bottom-left-radius: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#IconQ1 {
+    background-color: #3b8d45;
+    box-shadow: 0 5px 20px #57ac61;
+}
+
+#IconQ2 {
+    background-color: #3f5bb7;
+    box-shadow: 0 5px 20px #3f5bb7;
+}
+
+#IconQ3 {
+    background-color: #f9c80d;
+    box-shadow: 0 5px 20px #f9c80d;
+}
+
+#IconQ4 {
+    background-color: #e74c3c;
+    box-shadow: 0 5px 20px #e74c3c;
+}
+
+.complexTitle {
+    margin-left: 15px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fafbfa;
+}
+
+.numberPoint {
+    margin-top: 30px;
+}
+
+#greenQ {
+    width: 15px;
+    height: 15px;
+    background-color: #3b8d45;
+}
+
+#blueQ {
+    width: 15px;
+    height: 15px;
+    background-color: #3f5bb7;
+}
+
+#yellowQ {
+    width: 15px;
+    height: 15px;
+    background-color: #f9c80d;
+}
+
+#redQ {
+    width: 15px;
+    height: 15px;
+    background-color: #e74c3c;
+}
+
+.list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+ol .green::marker {
+    color: #3b8d45;
+}
+
+ol .blue::marker {
+    color: #3f5bb7;
+}
+
+ol .yellow::marker {
+    color: #f9c80d;
+}
+
+ol .red::marker {
+    color: #e74c3c;
+}
