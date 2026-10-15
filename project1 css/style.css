@@ -1,0 +1,93 @@
+#mainPage{
+    background-color: white;
+}
+
+
+#top-bar{
+    color: black;
+    position: relative;
+    height: 70px;
+    padding: 0 25px;
+}
+
+#logo{
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+#nav{
+    position: absolute;
+    left: 40%;
+    top: 50%;  
+}
+
+.log-but{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 40px;
+    border-width: 0.5px;
+    border-style: solid;
+    border: 1px solid #d9d9d9;
+}
+
+#login-B{
+    background-color: black;
+    color: white;
+}
+
+.nav-buts {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#logAndInfo{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+
+#mainSec{
+    text-align: center;
+    padding: 100px;
+}
+
+#prompt {
+     width: 100%;
+    height: 55px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#promptForm{
+    width: 600px;
+    height: 130px;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 22%;
+}
+
+.prompt-but{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+}
+
