@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f8;
+    color: #222;
+    padding: 30px 15px;
+}
+.magic-card {
+    background-color: #db2fde;
+    width: 200px;
+    height: 300px;
+    border-radius: 30%;
+    padding: 20px;
+    box-shadow: 0 10px 35px rgba(40, 45, 168, 0.07);
+    animation: entrance 2s ease-out forwards, slide 4s ease-in-out infinite alternate;
+    transition: transform 0.8s ease, background-color 0.8s ease;
+}
+
+.magic-card:hover {
+    background-color: #5c43d9;
+    transform: rotate(360deg);
+}
+
+@keyframes entrance {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(-15px);
+    }
+
+    to {
+        transform: translateX(15px);
+    }
+}
