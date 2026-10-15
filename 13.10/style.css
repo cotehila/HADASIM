@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lora&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f5f9;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #f771d3;
+    color: white;
+}
+
+#posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #34495e;
+}
+
+.card-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.delete-btn {
+    margin-left: auto;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e5e7eb;
+    color: #363636;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #eb1414;
+
+}
+
+.post1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.post2 {
+    font-family: 'Lora', serif;
+}
+
+.post3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.post1::first-line,
+.post2::first-line,
+.post3::first-line {
+    color: #d80d7d;
+}
+
+.post1::first-letter,
+.post2::first-letter,
+.post3::first-letter {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.card:has(#dark1:checked) {
+    background-color: #222;
+    color: white;
+}
+
+.card:has(#dark2:checked) {
+    background-color: #222;
+    color: white;
+}
+
+.card:has(#dark3:checked) {
+    background-color: #222;
+    color: white;
+}
